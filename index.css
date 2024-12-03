@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header / Hero Section */
+.hero {
+    text-align: center;
+    background: url('header-background.jpg') center/cover no-repeat;
+    color: rgb(150, 150, 150);
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 15px;
+}
+
+.hero nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about .photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Details Section */
+.details {
+    background: #b62d2d;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: rgb(177, 108, 108);
+}
